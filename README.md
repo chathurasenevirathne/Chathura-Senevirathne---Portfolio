@@ -1,1 +1,363 @@
-# Chathura-Senevirathne---Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chathura Senevirathne | Assistant Plant Engineer</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    color:#1e293b;
+    line-height:1.6;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+}
+
+.section{
+    padding:80px 0;
+}
+
+h2{
+    font-size:2rem;
+    margin-bottom:20px;
+    color:#0f172a;
+}
+
+.hero{
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(15,23,42,0.92),rgba(15,23,42,0.92)),
+    url('https://images.unsplash.com/photo-1565636291297-c881a6f97b21?w=1600');
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero h3{
+    color:#93c5fd;
+    margin-top:10px;
+    font-weight:500;
+}
+
+.hero p{
+    max-width:700px;
+    margin:20px auto;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+    margin:10px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+}
+
+.about{
+    background:#f8fafc;
+}
+
+.timeline{
+    border-left:4px solid #2563eb;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+}
+
+.timeline-item h4{
+    color:#2563eb;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project-card{
+    padding:25px;
+    background:white;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-6px);
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.skill{
+    background:#0f172a;
+    color:white;
+    padding:15px;
+    border-radius:10px;
+}
+
+.education{
+    background:#f8fafc;
+}
+
+.contact{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+.contact a{
+    color:#93c5fd;
+    text-decoration:none;
+}
+
+footer{
+    margin-top:20px;
+    font-size:0.9rem;
+    color:#cbd5e1;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<img src="profile.jpg" alt="Profile Photo">
+
+<h1>CHATHURA SENEVIRATHNE</h1>
+
+<h3>Chemical & Process Engineer | Assistant Plant Engineer</h3>
+
+<p>
+Improving Reliability, Maintenance Excellence,
+Manufacturing Performance and Operational Efficiency
+within FMCG Manufacturing.
+</p>
+
+<a href="resume.pdf" class="btn">Download CV</a>
+
+<a href="https://linkedin.com/in/chathura-senevirathne95"
+class="btn">LinkedIn</a>
+
+</div>
+
+</section>
+
+<section class="section about">
+
+<div class="container">
+
+<h2>About Me</h2>
+
+<p>
+
+Chemical and Process Engineer with 5+ years of experience
+at Unilever Sri Lanka across Plant Engineering,
+Manufacturing Operations and Utilities Management.
+
+Experienced in reliability engineering, asset management,
+maintenance optimization, automation projects, CAPEX
+delivery, operational excellence and people leadership.
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2>Career Journey</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h4>August 2024 – Present</h4>
+<p><strong>Assistant Plant Engineer – Soap Plant</strong></p>
+</div>
+
+<div class="timeline-item">
+<h4>January 2024 – August 2024</h4>
+<p><strong>Shift Manager – Soap Plant</strong></p>
+</div>
+
+<div class="timeline-item">
+<h4>April 2021 – December 2023</h4>
+<p><strong>Shift Engineer – Utility & Premises Department</strong></p>
+</div>
+
+<div class="timeline-item">
+<h4>Industrial Training</h4>
+<p><strong>Lanka Sugar Company (Pvt) Ltd</strong></p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2>Featured Projects & Achievements</h2>
+
+<div class="projects">
+
+<div class="project-card">
+<h3>Rainwater Harvesting & Treatment Plant</h3>
+<p>Sustainable water management initiative.</p>
+</div>
+
+<div class="project-card">
+<h3>Soap Relaunch Automation Project</h3>
+<p>Line transformation and automation implementation.</p>
+</div>
+
+<div class="project-card">
+<h3>Capacity Optimization Program</h3>
+<p>Asset utilization and manufacturing improvement.</p>
+</div>
+
+<div class="project-card">
+<h3>Engineering Loss Reduction</h3>
+<p>Reliability and downtime reduction initiatives.</p>
+</div>
+
+<div class="project-card">
+<h3>Fuel Crisis Continuity Project</h3>
+<p>Business continuity during national disruptions.</p>
+</div>
+
+<div class="project-card">
+<h3>Machine Overhaul Program</h3>
+<p>Packaging machine overhaul and localization.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<div class="container">
+
+<h2>Technical Expertise</h2>
+
+<div class="skills">
+
+<div class="skill">Reliability Engineering</div>
+<div class="skill">Maintenance Management</div>
+<div class="skill">Asset Management</div>
+<div class="skill">Mechanical Engineering</div>
+<div class="skill">Root Cause Analysis</div>
+<div class="skill">CAPEX Project Management</div>
+<div class="skill">Automation</div>
+<div class="skill">Continuous Improvement</div>
+<div class="skill">Utilities Management</div>
+<div class="skill">Leadership & Team Development</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section education">
+
+<div class="container">
+
+<h2>Education</h2>
+
+<p>
+
+Bachelor of Science in Engineering (Hons)<br>
+Chemical & Process Engineering<br>
+Second Class Upper Division Honours<br>
+University of Moratuwa
+
+</p>
+
+</div>
+
+</section>
+
+<section class="section contact">
+
+<div class="container">
+
+<h2>Contact</h2>
+
+<p>📧 chathurasenevirathne95@gmail.com</p>
+
+<p>📞 +64 22 608 4173</p>
+
+<p>
+<a href="https://linkedin.com/in/chathura-senevirathne95">
+LinkedIn Profile
+</a>
+</p>
+
+<footer>
+© 2026 Chathura Senevirathne
+</footer>
+
+</div>
+
+</section>
+
+</body>
+</html>
+`
